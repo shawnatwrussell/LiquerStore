@@ -115,6 +115,7 @@
         </div>
     </header>
 
+<!--HERO SECTION-->
     <div class="hero-wrap">
         <img src="~/images/bg_2.jpg" class="img-fluid">
         <div class="overlay"></div>
@@ -129,12 +130,16 @@
             </div>
         </div>
     </div>
+<!--END HERO SECTION-->
 
+<!--BODY SECTION(S)-->
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
+<!--END BODY SECTION-->
 
 
+ <!--FOOTER SECTION-->
     <footer class="ftco-footer">
         <div class="container">
             <div class="row mb-5">
@@ -208,8 +213,7 @@
             All rights reserved.
         </div>
     </footer>
-
-
+<!--END FOOTER SECTION-->
 
 
     <form class="form-inline" id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="/Identity/Account/Login">
